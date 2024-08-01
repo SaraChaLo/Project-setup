@@ -152,7 +152,14 @@ footer .contact-box p{
   margin:0;
 
 }
-
+.logo{
+  height: 50px;
+  width: 50px;
+  justify-content: center;
+  text-align: center;
+  padding: 15px;
+  
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -168,7 +175,9 @@ footer .contact-box p{
   footer .email-link{
   font-size: 15px;
  }
-  
+  .logo{
+    display: none;
+  }
   .hero {
     background: var(--secondary-color);
     text-align: center;
